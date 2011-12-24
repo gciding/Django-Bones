@@ -1,1 +1,2 @@
 git+https://github.com/django/django.git#egg=django
+South

@@ -1,7 +1,5 @@
 *.pyc
 *.swp
 *.db
-doc_root
-local_settings.py
 _build
 deploy/.vagrant
