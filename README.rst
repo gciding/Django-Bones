@@ -115,14 +115,14 @@ a local settings file at the end of the base settings file causes inconsistencie
 
 The way it works is:
 
-1 settings/__init__.py is loaded when the module 'myproject.settings' is imported.
+# settings/__init__.py is loaded when the module 'myproject.settings' is imported.
 
-2 This file will seach for a host settings file and import all of it's items
+# This file will seach for a host settings file and import all of it's items.
 
-3 The hosts settings file is responsible for importing the base settings so that
+# The hosts settings file is responsible for importing the base settings so that 
   it may extend the base settings where necessary.
 
-4 The base settings file actually tries to import a ``local_core`` file itself. 
+# The base settings file actually tries to import a ``local_core`` file itself. 
   This gives the developer an opportunity to overwrite some of the core variables
   in the settings file.
   
@@ -130,4 +130,4 @@ Next Steps
 ==========
 
 * Incorporate AUTHOR, settings.py, LICENCE etc into the top level of the project
-* 
+* Incorporate some Fabfiles with basic methods in them
