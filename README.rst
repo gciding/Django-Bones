@@ -49,30 +49,30 @@ So, we're under the `bonesy` parent folder, we now have the files we're
 interested in::
 
 	+  bonsey/ - the Django project parent directory.
-	.	.
-	.	+  bonsey/ - the Django project app corresponding to the project.
-	.	.  .
-	.	.  +  settings/ - This folder houses our various settings files.
-	.	.  .  .		
-	.	.  .  *  __init__.py -- Does the importing so we can use import settings
-	.	.  .  .
-	.	.  .  *  base.py -- Pretty much the settings file django produces with some extras.
-	.	.  .  .
-	.	.  .  *  settings_locahost_template.py -- a 'local settings' for the host
-	.	.  .  .
-	.	.  .  *  utils.py - some helpers used within the settings files.
-	.   .  .
-	.   .  *  urls.py - Django's generated URls conf for the project
-	.	.  .
-	.	.  *  wsgi.py	- Used by django's runserver.  .
+	.  .
+	.  +  bonsey/ - the Django project app corresponding to the project.
+	.  .  .
+	.  .  +  settings/ - This folder houses our various settings files.
+	.  .  .  .		
+	.  .  .  *  __init__.py -- Does the importing so we can use import settings
+	.  .  .  .
+	.  .  .  *  base.py -- Pretty much the settings file django produces with some extras.
+	.  .  .  .
+	.  .  .  *  settings_locahost_template.py -- a 'local settings' for the host
+	.  .  .  .
+	.  .  .  *  utils.py - some helpers used within the settings files.
+	.  .  .
+	.  .  *  urls.py - Django's generated URls conf for the project
+	.  .  .
+	.  .  *  wsgi.py	- Used by django's runserver.  .
 	.   .
 	.   +  public_media/ - This is where our user generated media goes.
-	.	.  
-	.	+  static/ - This is where we put our js/css and image files.	
-	.	.
-	.	+  templates/ - This is where we store our project level templates
-	.	.
-	.	*  manage.py - the management file created by Django.
+	.  .  
+	.  +  static/ - This is where we put our js/css and image files.	
+	.  .
+	.  +  templates/ - This is where we store our project level templates
+	.  .
+	.  *  manage.py - the management file created by Django.
 	.
 	+  deploy/ - houses our requirements files, and any specific deployment files
 	.  .
