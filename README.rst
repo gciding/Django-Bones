@@ -9,7 +9,7 @@ one subdirectory down.
 The way you use the project is with Django 1.4+ (you will already need Django
 1.4 installed)::
 	
-	django-admin.py start_project your_new_project --template=https://github.com/goranstef/Django-Bones/zipball/master
+	django-admin.py startproject your_new_project --template=https://github.com/goranstef/Django-Bones/zipball/master
 
 This will create a project with the name 'your_new_project'.  You should note
 the Folder Layout information below before beginning.
