@@ -65,8 +65,8 @@ interested in::
 	.  .  *  urls.py - Django's generated URls conf for the project
 	.  .  .
 	.  .  *  wsgi.py	- Used by django's runserver.  .
-	.   .
-	.   +  public_media/ - This is where our user generated media goes.
+	.  .
+	.  +  public_media/ - This is where our user generated media goes.
 	.  .  
 	.  +  static/ - This is where we put our js/css and image files.	
 	.  .
