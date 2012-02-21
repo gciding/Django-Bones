@@ -3,14 +3,13 @@
 # You should specify a file like settings_[your hostname].py which imports
 # the relevant settings files for you.
 #
+import socket
 
+host_name = socket.gethostname() or 'default'
+HOSTNAME = host_name.replace('.','_')
 
 try:
-    import socket
-    host_name = socket.gethostname() or 'default'
-    HOSTNAME = host_name.replace('.','_')
     # See http://docs.python.org/library/functions.html#__import__
-
     m = __import__(name="settings_%s" % HOSTNAME, 
                     globals=globals(), locals=locals(), fromlist="*")
     try:
